@@ -1,1 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advertisement Projects</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Be Vietnam', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+      margin: 20px 0;
+    }
+
+    section {
+      display: flex;
+      align-items: center;
+      padding: 20px 10%;
+      box-sizing: border-box;
+    }
+
+    .images {
+      flex: 1;
+      display: flex;
+      gap: 10px;
+    }
+
+    .images img {
+      width: 48%;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .description {
+      flex: 1;
+      padding: 10px;
+      background-color: white;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    section:nth-child(odd) {
+      flex-direction: row-reverse;
+    }
+
+    @media (max-width: 768px) {
+      section {
+        flex-direction: column;
+      }
+
+      .images img {
+        width: 100%;
+      }
+
+      .description {
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Advertisement Projects</h1>
+
+  <section>
+    <div class="images">
+      <img src="PRINGLE CRISPS.png" alt="Pringles Advertisement Mockup">
+      <img src="462554382_524185137180034_5503123474147908501_n.jpg" alt="Pringles Advertisement Social Media Mockup>
+    </div>
+    <div class="description">
+      <p>
+        <b>Advertisement Campaign 1</b><br>
+        This campaign was designed for a local bakery, focusing on their signature pastries. The visuals were created to highlight warmth and homemade quality.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="images">
+      <img src="Heavenly Hash Oreos (1).png" alt="Heavenly Hash Oreos Advertisement Mockup">
+      <img src="462565042_931352652228597_2214237856928386448_n.jpg" alt="Heavenly Hash Oreos Advertisement Social Media Mockup">
+    </div>
+    <div class="description">
+      <p>
+        <b>Advertisement Campaign 2</b><br>
+        A bold, modern approach to a tech product launch. These ads emphasize sleekness and innovation with a minimalist design.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="images">
+      <img src="462553663_2559262370929450_955533119983962552_n.png" alt="Grapeful For You Advertisement Mockup">
+      <img src="462539576_9247959495232632_2610843550592509120_n.jpg" alt="Grapeful For You Advertisement Social Media Mockup">
+    </div>
+    <div class="description">
+      <p>
+        <b>Advertisement Campaign 3</b><br>
+        A colorful and vibrant set of visuals aimed at promoting a summer event, using bright tones and dynamic elements to attract attention.
+      </p>
+    </div>
+  </section>
+</body>
+</html>
 
